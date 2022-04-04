@@ -1,6 +1,7 @@
 import React from 'react';
 import Rating from '../Rating/Rating';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import './SingleReview.css'
 import { faStarHalf } from '@fortawesome/free-solid-svg-icons';
 
 const SingleReview = ({ review }) => {
@@ -11,11 +12,11 @@ const SingleReview = ({ review }) => {
     }
     return (
         <div className="w-2/3 mx-auto md:w-full border border-gray-600 shadow-2xl mb-2  rounded-t-lg py-4 px-2">
-            <div className="flex items-center">
+            <div className="flex items-center name-and-image">
                 <img src={img} alt="" className="w-20 h-20 rounded-full" />
                 <h1 className="ml-2 text-xl">{name}</h1>
             </div>
-            <div className="flex items-center justify-between w-3/4 mx-auto my-2">
+            <div className="flex items-center justify-between w-3/4 mx-auto my-2 rating-container">
                 <p>Rating : {rating}</p>
                 <div className="flex text-yellow-500">
                     {

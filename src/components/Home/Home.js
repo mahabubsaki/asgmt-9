@@ -13,7 +13,7 @@ const Home = () => {
     }
     return (
         <>
-            <div className="flex title justify-between w-full flex-col-reverse md:flex-row items-center">
+            <div className="flex title justify-between w-full flex-col-reverse md:flex-row items-center overflow-x-hidden">
                 <div className="md:w-1/2 w-full">
                     <div>
                         <h1 className="text-center text-5xl font-semibold text-title mb-2">BENGOO <br /> <span className="text-title2">Gaming Headset</span></h1>
@@ -24,7 +24,7 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="w-3/4 md:w-1/2 mx-auto p-2">
-                    <div className="relative left-6">
+                    <div className="relative left-4">
                         <img src={product} alt="" />
                     </div>
                 </div>

@@ -1,0 +1,5 @@
+@media (max-width: 330px) {
+.name-and-image,.rating-container {
+    flex-direction: column;
+}
+}
