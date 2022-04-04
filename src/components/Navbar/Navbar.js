@@ -7,7 +7,7 @@ import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons';
 const Navbar = () => {
     const [click, setClick] = useState(false)
     return (
-        <div className="relative bg-gray-300 pb-1">
+        <div className="relative bg-gray-300 pb-1 navbar">
             <div className="md:hidden text-center bg-gray-300">
                 {
                     click ? <FontAwesomeIcon icon={faBars} onClick={() => setClick(!click)} className="h-8 w-8 mx-auto cursor-pointer"></FontAwesomeIcon> : <FontAwesomeIcon icon={faXmark} onClick={() => setClick(!click)} className="h-8 w-8 mx-auto cursor-pointer"></FontAwesomeIcon>
