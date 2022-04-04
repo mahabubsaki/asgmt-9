@@ -1,6 +1,5 @@
 import React from 'react';
-import { Link, Outlet } from 'react-router-dom';
-import CustomLink from '../CustomLink/CustomLink';
+import { Outlet } from 'react-router-dom';
 import CustomLink2 from '../CustomLink/CustomLink2';
 
 const Contact = () => {
