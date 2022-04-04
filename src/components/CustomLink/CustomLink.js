@@ -10,7 +10,7 @@ const CustomLink = ({ children, to, ...props }) => {
     let match = useMatch({ path: resolved.pathname, end: true });
     return (
         <Link
-            style={{ borderBottom: match ? "2px solid red" : "2px solid gray" }}
+            style={{ borderBottom: match ? "3px solid red" : "3px solid gray", transition: "all 1s linear" }}
             to={to}
             {...props}
         >
