@@ -7,7 +7,8 @@ module.exports = {
       colors: {
         title: "#37A9FC",
         title2: "#0E4AE8",
-        cardbg: "#DFCFBE"
+        cardbg: "#DFCFBE",
+        aboutme: "#1dc5de"
       }
     },
   },

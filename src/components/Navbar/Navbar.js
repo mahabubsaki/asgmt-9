@@ -19,7 +19,6 @@ const Navbar = () => {
                     <CustomLink to='reviews' className="text-xl ml-0 md:ml-5 p-3 rounded-md text-center">Reviews</CustomLink>
                     <CustomLink to='dashboard' className="text-xl ml-0 md:ml-5 p-3 rounded-md text-center">Dashboard</CustomLink>
                     <CustomLink to='blogs' className="text-xl ml-0 md:ml-5 p-3 rounded-md text-center">Blogs</CustomLink>
-                    <CustomLink to='about' className="text-xl ml-0 md:ml-5 p-3 rounded-md text-center">About</CustomLink>
                     <CustomLink to='contact' className="text-xl ml-0 md:ml-5 p-3 rounded-md text-center">Contact</CustomLink>
                 </nav>
             </div>

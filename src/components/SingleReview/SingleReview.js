@@ -17,7 +17,7 @@ const SingleReview = ({ review }) => {
                 <h1 className="ml-2 text-xl">{name}</h1>
             </div>
             <div className="flex items-center justify-between w-3/4 mx-auto my-2 rating-container">
-                <p>Rating : {rating}</p>
+                <p className="text-xl">Rating : {rating}</p>
                 <div className="flex text-yellow-500">
                     {
                         ratingArray.map(rating => <Rating key={rating}></Rating>)
