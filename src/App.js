@@ -9,6 +9,7 @@ import Gazipur from './components/Contact/Gazipur';
 import Dashboard from './components/Dashboard/Dashboard';
 import Home from './components/Home/Home';
 import Navbar from './components/Navbar/Navbar';
+import NotFound from './components/NotFound/NotFound';
 import Reviews from './components/Reviews/Reviews';
 
 function App() {
@@ -28,7 +29,9 @@ function App() {
           <Route path='chittagong' element={<Chittagong></Chittagong>}></Route>
           <Route path='chandpur' element={<Chandpur></Chandpur>}></Route>
         </Route>
+        <Route path="*" element={<NotFound></NotFound>}></Route>
       </Routes>
+
     </div>
   );
 }
