@@ -11,7 +11,7 @@ const SingleReview = ({ review }) => {
         ratingArray.push(i);
     }
     return (
-        <div className="w-2/3 mx-auto md:w-full border border-gray-600 shadow-2xl mb-2  rounded-t-lg py-4 px-2">
+        <div className="w-2/3 mx-auto md:w-full border border-gray-600 shadow-2xl mb-2  rounded-t-lg py-4 px-2 bg-cardbg">
             <div className="flex items-center name-and-image">
                 <img src={img} alt="" className="w-20 h-20 rounded-full" />
                 <h1 className="ml-2 text-xl">{name}</h1>
