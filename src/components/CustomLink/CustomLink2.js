@@ -5,12 +5,12 @@ import {
     useResolvedPath,
 } from "react-router-dom";
 
-const CustomLink = ({ children, to, ...props }) => {
+const CustomLink2 = ({ children, to, ...props }) => {
     let resolved = useResolvedPath(to);
     let match = useMatch({ path: resolved.pathname, end: true });
     return (
         <Link
-            style={{ border: match ? "3px solid red" : "3px solid gray", transition: "all 1s linear", boxShadow: '2px 2px 2px gray' }}
+            style={{ backgroundColor: match ? "yellow" : "transparent", transition: "all 0.8s linear" }}
             to={to}
             {...props}
         >
@@ -19,4 +19,4 @@ const CustomLink = ({ children, to, ...props }) => {
     );
 };
 
-export default CustomLink;
+export default CustomLink2;

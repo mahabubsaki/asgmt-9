@@ -23,10 +23,10 @@ function App() {
         ></Dashboard>}></Route>
         <Route path="/blogs" element={<Blogs></Blogs>}></Route>
         <Route path="/contact" element={<Contact></Contact>}>
-          <Route path='/dhaka' element={<Dhaka></Dhaka>}></Route>
-          <Route path='/dhaka' element={<Gazipur></Gazipur>}></Route>
-          <Route path='/chittagong' element={<Chittagong></Chittagong>}></Route>
-          <Route path='/chandpur' element={<Chandpur></Chandpur>}></Route>
+          <Route path='dhaka' element={<Dhaka></Dhaka>}></Route>
+          <Route path='gazipur' element={<Gazipur></Gazipur>}></Route>
+          <Route path='chittagong' element={<Chittagong></Chittagong>}></Route>
+          <Route path='chandpur' element={<Chandpur></Chandpur>}></Route>
         </Route>
       </Routes>
     </div>
